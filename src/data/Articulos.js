@@ -1,5 +1,6 @@
 export const db = [
     {
+      id: 1,
       nombre: "Zapatillas Air Force 1",
       marca: "Nike",
       imagen: "articulo1",
@@ -7,6 +8,7 @@ export const db = [
       precio: 2699.99
     },
     {
+      id: 2,
       nombre: "Zapatillas Sb Chron",
       marca: "Nike",
       imagen: "articulo2",
@@ -14,6 +16,7 @@ export const db = [
       precio: 2495.95
     },
     {
+      id: 3,
       nombre: "Sandalias Nike Victori One",
       marca: "Nike",
       imagen: "articulo3",
@@ -21,6 +24,7 @@ export const db = [
       precio: 1195.95
     },
     {
+      id: 4,
       nombre: "Zapatillas Sb Chron 2",
       marca: "Nike",
       imagen: "articulo4",
@@ -28,6 +32,7 @@ export const db = [
       precio: 2495.95
     },
     {
+      id: 5,
       nombre: "Zapatillas Retro Gts",
       marca: "Nike",
       imagen: "articulo5",
@@ -35,6 +40,7 @@ export const db = [
       precio: 1249.99
     },
     {
+      id: 6,
       nombre: "Sandalias Victori One",
       marca: "Nike",
       imagen: "articulo6",
@@ -42,6 +48,7 @@ export const db = [
       precio: 799.99
     },
     {
+      id: 7,
       nombre: "Zapatillas Tanjun",
       marca: "Nike",
       imagen: "articulo7",
@@ -49,6 +56,7 @@ export const db = [
       precio: 1179.99
     },
     {
+      id: 8,
       nombre: "Zapatillas Nike Vapor Lite Hc",
       marca: "Nike",
       imagen: "articulo8",
@@ -56,6 +64,7 @@ export const db = [
       precio: 1639.99
     },
     {
+      id: 9,
       nombre: "Zapatillas Nike Court Vision Lo",
       marca: "Nike",
       imagen: "articulo9",
@@ -63,6 +72,7 @@ export const db = [
       precio: 1799.99
     },
     {
+      id: 10,
       nombre: "Zapatillas Nike Court Vision Low Next Nature",
       marca: "Nike",
       imagen: "articulo10",
@@ -70,6 +80,7 @@ export const db = [
       precio: 2575.95
     },
     {
+      id: 11,
       nombre: "Camiseta técnica de manga corta Left Chest Logo",
       marca: "Under Armour",
       imagen: "articulo11",
@@ -77,6 +88,7 @@ export const db = [
       precio: 800.00
     },
     {
+      id: 12,
       nombre: "Zapatillas Galaxy 7 Rojas",
       marca: "Adidas",
       imagen: "articulo12",
@@ -84,6 +96,7 @@ export const db = [
       precio: 1200.00
     },
     {
+      id: 13,
       nombre: "Balón de Fútbol Profesional",
       marca: "Adidas",
       imagen: "articulo13",
@@ -91,6 +104,7 @@ export const db = [
       precio: 1500.00
     },
     {
+      id: 14,
       nombre: "Guantes de Portero Predator",
       marca: "Adidas",
       imagen: "articulo14",
@@ -98,6 +112,7 @@ export const db = [
       precio: 900.00
     },
     {
+      id: 15,
       nombre: "Mochila Deportiva Classic",
       marca: "Puma",
       imagen: "articulo15",
@@ -105,6 +120,7 @@ export const db = [
       precio: 700.00
     },
     {
+      id: 16,
       nombre: "Reloj Deportivo Fenix 6",
       marca: "Garmin",
       imagen: "articulo16",
@@ -112,6 +128,7 @@ export const db = [
       precio: 8000.00
     },
     {
+      id: 17,
       nombre: "Bicicleta de Montaña Rockrider",
       marca: "Decathlon",
       imagen: "articulo17",
@@ -119,6 +136,7 @@ export const db = [
       precio: 4500.00
     },
     {
+      id: 18,
       nombre: "Raqueta de Tenis Pure Drive",
       marca: "Babolat",
       imagen: "articulo18",

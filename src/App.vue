@@ -1,5 +1,5 @@
 <script setup>
-  import { ref, reactive, onMounted} from 'vue'
+  import { ref, reactive, onMounted, watch} from 'vue'
   import { db } from './data/Articulos.js'
   import Articulo from './components/Articulo.vue'
   import Header from './components/Header.vue'
@@ -14,6 +14,16 @@
     articulo.value = db[3];
   })
 
+  watch( carrito, () =>{
+    guardarLocalStorage()
+  },{
+    deep: true,
+  })
+
+  const guardarLocalStorage = () =>{
+    localStorage.setItem('carrito', JSON.stringify(carrito.value))
+  }
+
   const agregarCarrito = (articulo) =>{
 
     const existeCarrito = carrito.value.findIndex(producto => producto.id === articulo.id)
@@ -24,6 +34,7 @@
       articulo.cantidad = 1
       carrito.value.push(articulo);
     }
+    guardarLocalStorage();
   }
 
   const decrementarCantidad = (id) => {
@@ -69,8 +80,8 @@
           />
           </div>
     </main>
-  </body>
     <Footer/>
+  </body>
   
 </template>
 
